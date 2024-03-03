@@ -89,22 +89,6 @@ def get_args():
                                                          '/alpha')
     parser.add_argument('--trimap_dir', type=str, default='/media/ilab/Innocent/ilab/experiments/datasets/HHM-17k'
                                                           '/test/trimap')
-
-    # ========================================== P3M-10K ==========================================
-    # parser.add_argument('--alpha_dir', type=str, default='/media/ilab/Innocent/ilab/experiments/datasets/P3M-10k'
-    #                                                      '/validation/P3M-500-P/mask')
-    # parser.add_argument('--trimap_dir', type=str, default='/media/ilab/Innocent/ilab/experiments/datasets/P3M-10k'
-    #                                                       '/validation/P3M-500-P/trimap')
-
-    # ========================================== AMD ==========================================
-    # parser.add_argument('--alpha_dir', type=str, default='/media/ilab/Innocent/ilab/experiments/datasets/Composition'
-    #                                                      '-1k/human/test/alpha')
-    # parser.add_argument('--trimap_dir', type=str, default='/media/ilab/Innocent/ilab/experiments/datasets/Composition'
-    #                                                       '-1k/human/test/trimap')
-
-    # ========================================== Prediction =======================================
-    # parser.add_argument('--pred_dir', type=str, default='/media/ilab/Innocent/ilab/experiments/related_work/'
-    #                                                     'no_trimap/MODNet_my/prediction/resize')
     parser.add_argument('--pred_dir', type=str, default='/media/ilab/Innocent/ilab/experiments/MyNet/baseline_Unet'
                                                         '/prediction/b1_3_HHM-17K/resize')
 
